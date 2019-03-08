@@ -1,0 +1,102 @@
+body {
+  margin: unset;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  display: flex;
+}
+
+.contents {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.row {
+  /* border: 1px solid blue; */
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+.nav-left {
+  /* border: 1px solid black; */
+}
+.nav-right {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  /* border: 1px solid grey; */
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.story {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid rgb(175, 172, 170); */
+}
+
+.story-item {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.name {
+  text-align: center;
+}
+
+.stories {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  /* border: 5px solid red; */
+}
+
+.anal {
+  display: flex;
+  height: 100vh;
+  /* border: 1px solid green; */
+}
+
+.story-details1 {
+  flex: 5 5 50%;
+  /* border: 1px solid red; */
+}
+.story-details2 {
+  flex: 2.5 2.5 25%;
+  /* border: 1px solid red; */
+}
+.story-details3 {
+  flex: 2.5 2.5 25%;
+  /* border: 1px solid red; */
+}
+
+.common {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  width: 80%;
+  margin: 10px 0px 10px;
+  padding: 20px;
+}
